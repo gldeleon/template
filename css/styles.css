@@ -11270,9 +11270,9 @@ section {
 
 .twPc-div {
   background: #fff none repeat scroll 0 0;
-  /* border: 1px solid #e1e8ed; */
+  border: 1px solid #e1e8ed;
   border-radius: 6px;
-  height: 200px;
+  height: 400px;
   max-width: 100%; 
 }
 
@@ -11309,8 +11309,8 @@ section {
   border-radius: 7px;
   box-sizing: border-box;
   color: #fff;
-  height: 168px;
-  width: 168px;
+  height: 75%;
+  width: 75%;
 }
 .twPc-divUser {
   margin: 5px 0 0;
