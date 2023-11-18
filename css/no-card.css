@@ -8124,6 +8124,31 @@ textarea.form-control-lg {
   --bs-text-opacity: 1;
 }
 
+.bg-1{
+  background-color: #0B090B !important;
+  color: #fff;
+}
+
+.bg-2{
+  background-color: #737173 !important;
+  color: #fff;
+}
+
+.bg-3{
+  background-color: #3F3D3F !important;
+  color: #fff;
+}
+
+.bg-4{
+  background-color: #D9D7D9 !important;
+  color: #000;
+}
+
+.bg-5{
+  background-color: #A5A3A5 !important;
+  color: #000;
+}
+
 .bg-primary {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
@@ -10831,8 +10856,8 @@ html {
 }
 
 .content-section {
-  padding-top: 7.5rem;
-  padding-bottom: 7.5rem;
+  padding-top: 4.5rem;
+  padding-bottom: 4.5rem;
 }
 
 .content-section-heading h2, .content-section-heading .h2 {
@@ -10877,7 +10902,7 @@ html {
   height: 100%;
   transition: all 0.4s ease 0s;
   transform: translateX(250px);
-  background: #1D809F;
+  background: #0B090B;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -10959,7 +10984,6 @@ html {
 
 .callout {
   padding: 15rem 0;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-callout.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -10972,17 +10996,17 @@ html {
 }
 
 footer.footer {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
 }
 footer.footer .social-link {
   display: block;
   text-decoration: none;
-  height: 4rem;
-  width: 4rem;
-  line-height: 4.3rem;
-  font-size: 1.5rem;
-  background-color: #1D809F;
+  height: 3rem;
+  width: 3rem;
+  line-height: 3.3rem;
+  font-size: 1.2rem;
+  background-color: #737173;
   transition: background-color 0.15s ease-in-out;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
@@ -11012,7 +11036,7 @@ footer.footer .social-link:hover {
   display: table;
   width: 100%;
   height: auto;
-  padding-top: 8rem;
+  padding-top: 35rem;
   padding-bottom: 8rem;
   background-position: center center;
   background-repeat: no-repeat;
@@ -11025,7 +11049,7 @@ footer.footer .social-link:hover {
 }
 @media (min-width: 992px) {
   .masthead {
-    height: 100vh;
+    height: 120vh;
   }
   .masthead h1, .masthead .h1 {
     font-size: 5.5rem;
@@ -11134,4 +11158,9 @@ footer.footer .social-link:hover {
 
 .masthead-avatar {
   width: 23rem;
+}
+
+mark {
+  background-color: #D9D7D9;
+  color: #000;
 }
